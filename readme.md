@@ -17,16 +17,16 @@ This is a repository intended to serve as a starting point if you want to bootst
 
 ```
 # install dependencies
-npm install
+yarn install
 
 # run in dev mode on port 3000
-npm run dev
+yarn dev
 
 # generate production build
-npm run build
+yarn build
 
 # run generated content in dist folder on port 3000
-npm run start
+yarn start
 ```
 
 ## Testing
@@ -34,15 +34,19 @@ npm run start
 ### Jest with supertest
 
 ```
-npm run test
+yarn test
 ```
 
 ## Linting
 
 ```
 # run linter
-npm run lint
+yarn lint
 
 # fix lint issues
-npm run lint:fix
+yarn lint:fix
 ```
+
+## URLS 
+>> /
+>> /crawler
